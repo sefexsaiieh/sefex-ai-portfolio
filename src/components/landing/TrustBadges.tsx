@@ -13,18 +13,19 @@ export function TrustBadges() {
 
   return (
     <div
-      className="flex flex-wrap justify-center gap-3 px-4 pb-8"
+      className="flex flex-wrap justify-center gap-3 px-4 pb-6"
       role="list"
       aria-label="Trust indicators"
     >
-      {badges.map(({ key, icon: Icon }) => (
+      {badges.map(({ key, icon: Icon }, i) => (
         <div
           key={key}
           role="listitem"
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-full shadow-sm"
+          className="badge-pill"
+          style={{ animationDelay: `${i * 0.15}s` }}
         >
-          <Icon className="w-4 h-4 text-accent-600" aria-hidden="true" />
-          <span>{t(`hero.${key}`)}</span>
+          <Icon className="w-3.5 h-3.5 text-cyan-300" aria-hidden="true" />
+          <span className="text-slate-300">{t(`hero.${key}`)}</span>
         </div>
       ))}
     </div>
