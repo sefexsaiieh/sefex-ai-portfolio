@@ -39,7 +39,6 @@ export function TravelOSSimulation() {
     incrementAnomalies, incrementTasks,
   } = useStore();
 
-  const logEndRef = useRef<HTMLDivElement>(null);
   const intervalRef = useRef<ReturnType<typeof setInterval>>();
 
   useEffect(() => {
@@ -56,7 +55,12 @@ export function TravelOSSimulation() {
     return () => clearInterval(intervalRef.current);
   }, [addActivity, updateAgentStatus, incrementTasks, incrementSavings, incrementAnomalies]);
 
-  useEffect(() => { logEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [activityLog]);
+  const logContainerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (logContainerRef.current) {
+      logContainerRef.current.scrollTop = logContainerRef.current.scrollHeight;
+    }
+  }, [activityLog]);
 
   return (
     <section className="relative z-10 w-full" aria-label={t('simulation.title')}>
@@ -82,7 +86,8 @@ export function TravelOSSimulation() {
       </div>
 
       {/* Activity feed */}
-      <div className="h-44 overflow-y-auto mb-4 glass-card p-3 text-xs font-mono space-y-1"
+      <div ref={logContainerRef}
+        className="h-44 overflow-y-auto mb-4 glass-card p-3 text-xs font-mono space-y-1"
         role="log" aria-live="off" aria-atomic="true" aria-relevant="additions" aria-label="Activity feed">
         {activityLog.map((log) => (
           <div key={log.id} className="flex items-start gap-2 text-slate-400">
@@ -96,7 +101,6 @@ export function TravelOSSimulation() {
             <span className="text-slate-300">{log.message}</span>
           </div>
         ))}
-        <div ref={logEndRef} />
       </div>
 
       {/* Controls */}
