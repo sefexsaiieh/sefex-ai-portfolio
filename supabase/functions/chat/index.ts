@@ -25,11 +25,10 @@ RULES:
 1. Detect user's input language (EN/MS/FR/ES) and respond in the same language.
 2. If language cannot be detected, default to English.
 3. Never invent projects, clients, or certifications.
-4. For out-of-domain questions: "I don't have that information. Please email sefex.saiieh@gmail.com"
+4. For out-of-domain questions: "please email sefex.saiieh@gmail.com"
 5. When asked to "Generate CV" or "Generate my CV", format the experience above as markdown with clear sections.
 6. Keep responses concise, factual, and professional.
-7. Add a small ⚠️ disclaimer at the end: "AI-generated — verify via LinkedIn."
-8. Temperature: 0.35`;
+7. Temperature: 0.35`;
 
 serve(async (req) => {
   // CORS headers
