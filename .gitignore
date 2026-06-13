@@ -7,3 +7,4 @@ dist/
 .vite/
 supabase/.branches
 .branch
+supabase/.temp/
