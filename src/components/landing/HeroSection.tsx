@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Sparkles, MessageSquare } from 'lucide-react';
+import { Sparkles, BrainCircuit } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
 interface HeroSectionProps {
@@ -40,12 +40,12 @@ export function HeroSection({ onCtaClick }: HeroSectionProps) {
         <span className="text-gradient">{t('hero.title')}</span>
       </h1>
 
-      {/* Subtitle with gradient accent */}
+      {/* Subtitle */}
       <p className="mt-4 text-2xl md:text-3xl font-semibold text-gradient-accent">
         {t('hero.subtitle')}
       </p>
 
-      {/* Tagline with typing effect */}
+      {/* Tagline */}
       <p
         ref={taglineRef}
         className="mt-6 max-w-2xl text-lg text-slate-400 leading-relaxed font-light"
@@ -53,15 +53,23 @@ export function HeroSection({ onCtaClick }: HeroSectionProps) {
         {t('hero.tagline')}
       </p>
 
-      {/* CTA */}
+      {/* CTA — "Ask AI Me" with animated brain */}
       <button
         onClick={onCtaClick}
-        className="glow-button mt-10 inline-flex items-center gap-2.5 px-8 py-3.5 text-base font-semibold text-white rounded-xl z-10"
+        className="glow-button mt-10 inline-flex items-center gap-3 px-8 py-3.5 text-base font-semibold text-white rounded-xl z-10 group"
         aria-label={t('hero.cta')}
         aria-controls="chat-panel"
       >
-        <MessageSquare className="w-5 h-5" aria-hidden="true" />
-        <span className="relative z-10">{t('hero.cta')}</span>
+        <span className="relative z-10 flex items-center gap-3">
+          <BrainCircuit
+            className="w-5 h-5 transition-all duration-700 group-hover:scale-110 group-hover:rotate-12"
+            aria-hidden="true"
+            style={{
+              animation: 'brainPulse 2.5s ease-in-out infinite',
+            }}
+          />
+          <span>{t('hero.cta')}</span>
+        </span>
       </button>
 
       {/* Decorative bottom fade */}

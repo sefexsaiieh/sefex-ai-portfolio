@@ -125,6 +125,15 @@ body {
   @apply outline-none ring-2 ring-aurora-400/70 ring-offset-2 ring-offset-space-950;
 }
 
+
+/* Brain icon pulse animation */
+@keyframes brainPulse {
+  0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.8; }
+  25% { transform: scale(1.15) rotate(8deg); opacity: 1; }
+  50% { transform: scale(1.05) rotate(-4deg); opacity: 0.9; }
+  75% { transform: scale(1.1) rotate(5deg); opacity: 1; }
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
