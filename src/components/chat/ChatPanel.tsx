@@ -7,8 +7,7 @@ import { ChatInput } from './ChatInput';
 import { QuickPrompts } from './QuickPrompts';
 import { ErrorFallback } from './ErrorFallback';
 import { LoadingSkeleton } from '../common/LoadingSkeleton';
-
-const API_ENDPOINT = '/api/chat';
+import { sendChatMessage } from '../../lib/api';
 
 // Map quick prompt keys to actual message text
 const PROMPT_MAP: Record<string, string> = {
@@ -83,22 +82,19 @@ export function ChatPanel() {
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 15000);
 
-      const response = await fetch(API_ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
+      const data = await sendChatMessage(
+        {
           message,
           session_id: crypto.randomUUID(),
           language: navigator.language?.split('-')[0] || 'en',
-        }),
-        signal: controller.signal,
-      });
+        },
+        controller.signal
+      );
 
       clearTimeout(timeout);
-      const data = await response.json();
 
       if (data.status === 'ok') {
-        addMessage({ role: 'assistant', content: data.data.reply });
+        addMessage({ role: 'assistant', content: data.data!.reply });
       } else if (data.status === 'rate_limited') {
         addMessage({
           role: 'assistant',
