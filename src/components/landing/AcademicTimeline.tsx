@@ -6,11 +6,17 @@ import { timelineCredentials } from '../../data/timeline';
 import { TimelineNode } from './TimelineNode';
 import { useState } from 'react';
 
-export function AcademicTimeline() {
+interface AcademicTimelineProps { onTooltipActive?: (active: boolean) => void; }
+
+export function AcademicTimeline({ onTooltipActive }: AcademicTimelineProps) {
   const { t } = useTranslation();
   const prefersReduced = useReducedMotion();
   const { ref, isVisible } = useViewportAnimation({ threshold: 0.2 });
   const [hovered, setHovered] = useState<number | null>(null);
+  const handleHover = (index: number | null) => {
+    setHovered(index);
+    onTooltipActive?.(index !== null);
+  };
 
   const containerVariants = {
     hidden: {},
@@ -51,7 +57,7 @@ export function AcademicTimeline() {
               index={index}
               total={timelineCredentials.length}
               isVisible={prefersReduced || isVisible}
-              onHover={setHovered}
+              onHover={handleHover}
               hovered={hovered}
             />
 
