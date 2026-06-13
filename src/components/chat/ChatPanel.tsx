@@ -137,6 +137,7 @@ export function ChatPanel() {
   return (
     <div
       ref={panelRef}
+      id="chat-panel"
       className="fixed inset-y-0 right-0 w-full max-w-md bg-white border-l border-gray-200 shadow-2xl z-50 flex flex-col"
       role="dialog"
       aria-modal="true"

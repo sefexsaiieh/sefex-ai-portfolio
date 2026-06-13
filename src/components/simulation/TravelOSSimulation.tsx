@@ -146,7 +146,7 @@ export function TravelOSSimulation() {
       <div
         className="h-40 overflow-y-auto mb-4 p-3 bg-gray-50 border border-gray-200 rounded-lg text-xs font-mono space-y-1"
         role="log"
-        aria-live="polite"
+        aria-live="off" aria-atomic="true" aria-relevant="additions"
         aria-label="Activity feed"
       >
         {activityLog.map((log) => (

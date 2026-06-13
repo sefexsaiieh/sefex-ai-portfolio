@@ -61,6 +61,7 @@ export function TimelineNode({
         onMouseLeave={() => onHover(null)}
         onFocus={() => onHover(index)}
         onBlur={() => onHover(null)}
+        aria-expanded={hovered === index}
         aria-describedby={hovered === index ? `tooltip-${index}` : undefined}
       >
         <Icon

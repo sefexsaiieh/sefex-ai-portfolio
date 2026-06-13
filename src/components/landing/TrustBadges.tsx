@@ -21,9 +21,9 @@ export function TrustBadges() {
         <div
           key={key}
           role="listitem"
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-full shadow-sm"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-full shadow-sm"
         >
-          <Icon className="w-4 h-4 text-accent-500" aria-hidden="true" />
+          <Icon className="w-4 h-4 text-accent-600" aria-hidden="true" />
           <span>{t(`hero.${key}`)}</span>
         </div>
       ))}
