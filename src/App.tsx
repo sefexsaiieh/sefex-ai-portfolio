@@ -15,7 +15,6 @@ const ChatPanel = lazy(() =>
 function App() {
   const { isChatOpen, toggleChat } = useStore();
   const [chatLoaded, setChatLoaded] = useState(false);
-  const [tooltipActive, setTooltipActive] = useState(false);
   const { i18n } = useTranslation();
 
   useEffect(() => {
@@ -60,8 +59,8 @@ function App() {
         <HeroSection onCtaClick={handleCtaClick} />
         <TrustBadges />
         <div className="glow-line mx-auto max-w-xl mb-8" />
-        <AcademicTimeline onTooltipActive={setTooltipActive} />
-        <div className={`max-w-4xl mx-auto px-4 pb-16 ${tooltipActive ? "pt-36" : "pt-16"} transition-all duration-300`}>
+        <AcademicTimeline />
+        <div className="max-w-4xl mx-auto px-4 pb-16">
           <TravelOSSimulation />
         </div>
       </main>
