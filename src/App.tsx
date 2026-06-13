@@ -60,7 +60,7 @@ function App() {
         <TrustBadges />
         <div className="glow-line mx-auto max-w-xl mb-8" />
         <AcademicTimeline />
-        <div className="max-w-4xl mx-auto px-4 pb-16">
+        <div className="max-w-4xl mx-auto px-4 pb-16 pt-16">
           <TravelOSSimulation />
         </div>
       </main>

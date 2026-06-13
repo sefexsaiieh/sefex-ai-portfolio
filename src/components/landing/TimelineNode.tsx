@@ -68,7 +68,7 @@ export function TimelineNode({ credential, index, total, isVisible, onHover, hov
         <div
           id={`tooltip-${index}`}
           role="tooltip"
-          className="absolute z-20 bottom-full mb-2 w-56 p-3 rounded-xl border border-white/10 backdrop-blur-xl text-left"
+          className="absolute z-20 top-full mt-2 w-56 p-3 rounded-xl border border-white/10 backdrop-blur-xl text-left"
           style={{
             left: '50%',
             transform: 'translateX(-50%)',
