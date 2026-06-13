@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Sefex Saiieh",
+    "subtitle": "Consultant IA FinTech",
+    "tagline": "10+ ans d'expérience dans la transformation de la gestion de patrimoine avec l'IA, la finance islamique et Temenos WealthSuite",
+    "cta": "Essayez le Chat IA →",
+    "trust_1": "10+ ans FinTech",
+    "trust_2": "Finance Islamique (INCEIF)",
+    "trust_3": "Expert Temenos Triple'A",
+    "trust_4": "4 Agents IA (production)"
+  },
+  "timeline": {
+    "title": "Parcours Académique & Professionnel",
+    "now": "Maintenant"
+  },
+  "chat": {
+    "title": "Sefex AI",
+    "status_online": "En Ligne",
+    "status_thinking": "Réflexion...",
+    "placeholder": "Demandez-moi n'importe quoi sur la FinTech IA...",
+    "intro_message": "👋 Bonjour ! Je suis l'assistant IA de Sefex. Je peux générer son CV, expliquer son architecture IA TravelOS, discuter de projets FinTech islamiques, montrer son expérience WealthSuite, ou partager des exemples de code. Que souhaitez-vous explorer ?",
+    "disclaimer": "Généré par IA — vérifiez via LinkedIn ou email sefex.saiieh@gmail.com",
+    "error_unavailable": "IA temporairement indisponible — veuillez m'écrire à sefex.saiieh@gmail.com",
+    "error_timeout": "La requête a expiré. Veuillez réessayer.",
+    "error_rate_limited": "Trop de requêtes. Veuillez patienter.",
+    "quick_cv": "📄 Générer mon CV",
+    "quick_architecture": "🤖 Expliquer l'architecture IA TravelOS",
+    "quick_islamic": "🕌 Montrer les projets FinTech islamiques",
+    "quick_wealthsuite": "📊 Quels projets WealthSuite ?",
+    "quick_code": "🔧 Montrer un exemple de code Edge Function",
+    "quick_language": "🌍 Répondre en Français"
+  },
+  "simulation": {
+    "title": "Monitoring d'Agents TravelOS en Temps Réel",
+    "savings": "Économies trouvées",
+    "anomalies": "Anomalies",
+    "tasks": "Tâches terminées",
+    "btn_drop": "Simuler une Baisse de Prix",
+    "btn_alert": "Déclencher une Alerte de Sécurité",
+    "btn_reset": "Réinitialiser la Démo",
+    "agent_monitoring": "Surveillance",
+    "agent_planning": "Planification",
+    "agent_storytelling": "Narration",
+    "agent_vision": "Vision",
+    "status_idle": "Inactif",
+    "status_working": "En cours",
+    "status_alert": "Alerte"
+  },
+  "cv": {
+    "download_pdf": "Télécharger PDF",
+    "copy_clipboard": "Copier dans le presse-papier",
+    "download_md": "Télécharger .md",
+    "generated_at": "Généré le {{date}} UTC"
+  },
+  "footer": {
+    "disclaimer": "Contenu généré par IA — vérifiez via LinkedIn. Ce site est un projet de portfolio personnel.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email"
+  }
+}

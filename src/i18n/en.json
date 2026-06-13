@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Sefex Saiieh",
+    "subtitle": "FinTech AI Consultant",
+    "tagline": "10+ years transforming wealth management with AI, Islamic Finance & Temenos WealthSuite",
+    "cta": "Try the AI Chat →",
+    "trust_1": "10+ years FinTech",
+    "trust_2": "Islamic Finance (INCEIF)",
+    "trust_3": "Temenos Triple'A Expert",
+    "trust_4": "4 Production AI Agents"
+  },
+  "timeline": {
+    "title": "Academic & Professional Journey",
+    "now": "Now"
+  },
+  "chat": {
+    "title": "Sefex AI",
+    "status_online": "Online",
+    "status_thinking": "Thinking...",
+    "placeholder": "Ask me anything about FinTech AI...",
+    "intro_message": "👋 Hi! I'm Sefex's AI assistant. I can generate his CV, explain his TravelOS AI architecture, discuss Islamic FinTech projects, show WealthSuite experience, or even share code examples. What would you like to explore?",
+    "disclaimer": "AI-generated — verify via LinkedIn or email sefex.saiieh@gmail.com",
+    "error_unavailable": "AI temporarily unavailable — please email me at sefex.saiieh@gmail.com",
+    "error_timeout": "Request timed out. Please try again.",
+    "error_rate_limited": "Too many requests. Please wait a moment.",
+    "quick_cv": "📄 Generate my CV",
+    "quick_architecture": "🤖 Explain your TravelOS AI architecture",
+    "quick_islamic": "🕌 Show Islamic FinTech projects",
+    "quick_wealthsuite": "📊 What WealthSuite projects?",
+    "quick_code": "🔧 Show Edge Function code example",
+    "quick_language": "🌍 Respond in Malay / French / Spanish"
+  },
+  "simulation": {
+    "title": "TravelOS Real-Time Agent Monitor",
+    "savings": "Savings found",
+    "anomalies": "Anomalies",
+    "tasks": "Tasks completed",
+    "btn_drop": "Simulate Price Drop",
+    "btn_alert": "Trigger Safety Alert",
+    "btn_reset": "Reset Demo",
+    "agent_monitoring": "Monitoring",
+    "agent_planning": "Planning",
+    "agent_storytelling": "Storytelling",
+    "agent_vision": "Vision",
+    "status_idle": "Idle",
+    "status_working": "Working",
+    "status_alert": "Alert"
+  },
+  "cv": {
+    "download_pdf": "Download PDF",
+    "copy_clipboard": "Copy to clipboard",
+    "download_md": "Download .md",
+    "generated_at": "Generated on {{date}} UTC"
+  },
+  "footer": {
+    "disclaimer": "AI-generated content — verify via LinkedIn. This site is a personal portfolio project.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email"
+  }
+}

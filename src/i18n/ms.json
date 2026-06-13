@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Sefex Saiieh",
+    "subtitle": "Perunding FinTech AI",
+    "tagline": "10+ tahun mengubah pengurusan kekayaan dengan AI, Kewangan Islam & Temenos WealthSuite",
+    "cta": "Cuba AI Chat →",
+    "trust_1": "10+ tahun FinTech",
+    "trust_2": "Kewangan Islam (INCEIF)",
+    "trust_3": "Pakar Temenos Triple'A",
+    "trust_4": "4 Ejen AI (produksi)"
+  },
+  "timeline": {
+    "title": "Perjalanan Akademik & Profesional",
+    "now": "Sekarang"
+  },
+  "chat": {
+    "title": "Sefex AI",
+    "status_online": "Dalam Talian",
+    "status_thinking": "Berfikir...",
+    "placeholder": "Tanyakan apa sahaja tentang FinTech AI...",
+    "intro_message": "👋 Hai! Saya pembantu AI Sefex. Saya boleh menjana CV beliau, menerangkan seni bina AI TravelOS, membincangkan projek FinTech Islam, menunjukkan pengalaman WealthSuite, atau berkongsi contoh kod. Apa yang ingin anda terokai?",
+    "disclaimer": "Dijana AI — sahkan melalui LinkedIn atau emel sefex.saiieh@gmail.com",
+    "error_unavailable": "AI tidak tersedia buat sementara waktu — sila emel saya di sefex.saiieh@gmail.com",
+    "error_timeout": "Permintaan tamat masa. Sila cuba lagi.",
+    "error_rate_limited": "Terlalu banyak permintaan. Sila tunggu sebentar.",
+    "quick_cv": "📄 Jana CV saya",
+    "quick_architecture": "🤖 Terangkan seni bina AI TravelOS",
+    "quick_islamic": "🕌 Tunjukkan projek FinTech Islam",
+    "quick_wealthsuite": "📊 Projek WealthSuite apa?",
+    "quick_code": "🔧 Tunjukkan contoh kod Edge Function",
+    "quick_language": "🌍 Balas dalam Bahasa Melayu"
+  },
+  "simulation": {
+    "title": "Pemantauan Ejen TravelOS Masa Nyata",
+    "savings": "Simpanan ditemui",
+    "anomalies": "Anomali",
+    "tasks": "Tugasan selesai",
+    "btn_drop": "Simulasi Penurunan Harga",
+    "btn_alert": "Cetus Amaran Keselamatan",
+    "btn_reset": "Set Semula Demo",
+    "agent_monitoring": "Pemantauan",
+    "agent_planning": "Perancangan",
+    "agent_storytelling": "Penceritaan",
+    "agent_vision": "Penglihatan",
+    "status_idle": "Terbiar",
+    "status_working": "Bekerja",
+    "status_alert": "Amaran"
+  },
+  "cv": {
+    "download_pdf": "Muat Turun PDF",
+    "copy_clipboard": "Salin ke papan klip",
+    "download_md": "Muat Turun .md",
+    "generated_at": "Dijana pada {{date}} UTC"
+  },
+  "footer": {
+    "disclaimer": "Kandungan dijana AI — sahkan melalui LinkedIn. Laman ini adalah projek portfolio peribadi.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Emel"
+  }
+}

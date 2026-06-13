@@ -1,0 +1,95 @@
+{
+  "name": "Sefex Saiieh",
+  "citizenship": ["Malaysia", "Blue Card (Luxembourg)"],
+  "location": "Luxembourg",
+  "email": "sefex.saiieh@gmail.com",
+  "phone": "+352 661 374 571",
+  "summary": "Results-oriented financial technology consultant with 10+ years of experience specializing in AI-powered solutions for financial services, portfolio management, robo-advisory, and wealth management systems.",
+  "core_expertise": [
+    "FinTech Strategy — Islamic finance principles, market trends, opportunity identification",
+    "Robo-Advisory — AI/ML for personalised investment advice and automated portfolio management",
+    "Wealth Management Systems — Temenos WealthSuite/Triple'A, automation, regulatory compliance",
+    "Islamic Finance — Shariah-compliant strategies, INCEIF Executive Master's (expected Jan 2026)",
+    "Project Leadership — Cross-functional team delivery",
+    "Stakeholder Management — C-suite to technical teams"
+  ],
+  "experience": [
+    {
+      "role": "Principal Consultant",
+      "company": "LTIMindtree S.A. Luxembourg",
+      "period": "Current",
+      "deployment": "Spuerkeess Bank Luxembourg",
+      "project": "lux|mandate — AI-driven discretionary portfolio management on Temenos WealthSuite Triple'A"
+    },
+    {
+      "role": "Temenos WealthSuite Independent Consultant",
+      "period": "2020-2023",
+      "projects": [
+        "Alinma Investment Bank — WealthSuite implementation with Islamic finance compliance",
+        "EuroBank Cyprus — WealthSuite/Transact testing",
+        "BNP Paribas — Triple'A upgrade and migration"
+      ]
+    },
+    {
+      "role": "Triple'A Business Unit Manager",
+      "company": "ITSS Luxembourg",
+      "period": "2017-2019",
+      "client": "Deutscher Bank Belgium",
+      "details": "Led fintech team for wealth management solutions, MiFID II compliance, core PMS upgrade."
+    },
+    {
+      "role": "Independent Fintech Consultant",
+      "period": "2015-2017",
+      "client": "Standard Chartered Bank Singapore",
+      "project": "Robo-advisory initiative on Temenos WealthSuite"
+    },
+    {
+      "role": "Technical Team Lead",
+      "company": "Maybank Singapore",
+      "period": "2013-2015",
+      "details": "Global private wealth systems implementation, Islamic finance features."
+    },
+    { "role": "Assistant Vice President", "company": "CIMB Bank Singapore", "period": "2012-2013" },
+    { "role": "Senior Technical Consultant", "company": "Temenos Singapore", "period": "2010-2012" },
+    { "role": "Senior Technical Consultant", "company": "Odyssey Financial Technologies", "period": "2005-2010" },
+    { "role": "Technical Consultant", "company": "Plato MSC Sdn Bhd", "period": "2000-2005" }
+  ],
+  "education": [
+    { "degree": "B.Sc. Statistics", "institution": "Case Western Reserve University", "year": "2012" },
+    { "degree": "Executive Master's in Islamic Finance", "institution": "INCEIF University Malaysia", "expected": "Jan 2026" }
+  ],
+  "certifications": [
+    "Temenos Triple'A WealthSuite Plus Bronze",
+    "Temenos Triple'A WealthSuite Project Management & Implementation",
+    "Temenos Triple'A WealthSuite Troubleshooting/Run-the-Bank",
+    "The Data Scientist's Toolbox — Johns Hopkins University"
+  ],
+  "languages": [
+    { "language": "English", "level": "Fluent" },
+    { "language": "Malay/Indonesian", "level": "Native" },
+    { "language": "French", "level": "Beginner/A1" }
+  ],
+  "ai_projects": [
+    {
+      "name": "TravelOS — AI-First Travel Intelligence Platform",
+      "type": "Personal project",
+      "tech_stack": ["React 18", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "DeepSeek API", "Gemini 2.0 Flash", "WebSocket", "Framer Motion"],
+      "agents": ["Proactive Monitoring Agent (price tracking, anomaly detection)", "Sofia AI Trip Planning Agent", "Story Generation Agent", "Vision Intelligence (Gemini 2.0 Flash)"],
+      "fintech": ["JobetCard System — FiWi AI transaction routing", "GBIT optimisation", "Dynamic Marketplace Engine"],
+      "loc": "~15,000 TypeScript"
+    },
+    {
+      "name": "Silk Road Halal Digital Ecosystem",
+      "type": "Personal project",
+      "tech_stack": ["React 18", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "DeepSeek API", "Deno Edge Functions", "Blockchain"],
+      "modules": ["AI-Powered Certification Engine (80% faster processing)", "Intelligent Marketplace (250K+ listings, 8,500+ suppliers)", "Supply Chain Transparency (blockchain-verified, QR)", "AI Trade Assistant (multilingual)", "Shariah-Compliant Payments"],
+      "market": "$2.3 trillion global halal market",
+      "loc": "~15,000 across 25+ components"
+    }
+  ],
+  "boundaries": [
+    "Do not invent projects, certifications, or clients not listed above.",
+    "Do not claim current employment at companies not listed above.",
+    "If asked about something outside this JSON, say: 'I don't have that information in my knowledge base. Please email sefex.saiieh@gmail.com.'"
+  ]
+}
