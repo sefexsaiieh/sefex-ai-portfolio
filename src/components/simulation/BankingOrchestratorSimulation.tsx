@@ -114,7 +114,7 @@ export function BankingOrchestratorSimulation() {
       <p className="text-center text-xs text-slate-500 mb-6">EU-compliant • Air-gapped • Phi-4-mini AI • Real-time event lifecycle</p>
 
       {/* Agent cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 xl:gap-6 mb-4">
         {agentStatuses.map(agent => (
           <div key={agent.id} className={`glass-card p-3 border transition-all duration-500 ${agent.status === 'working' ? 'border-indigo-500/30 bg-indigo-500/[0.04]' : agent.status === 'alert' ? 'border-red-500/30 bg-red-500/[0.04]' : 'border-slate-700/50 bg-white/[0.02]'}`}
             role="status" aria-label={`${agent.name}: ${agent.status}`}>
@@ -138,7 +138,7 @@ export function BankingOrchestratorSimulation() {
       </div>
 
       {/* Metrics */}
-      <div className="flex flex-wrap justify-center gap-3 mb-4 text-xs font-mono" role="status" aria-label="Banking Metrics">
+      <div className="flex flex-wrap xl:flex-nowrap justify-center gap-3 mb-4 text-xs font-mono" role="status" aria-label="Banking Metrics">
         <span className="text-indigo-300/90 bg-indigo-500/10 border border-indigo-500/20 px-2.5 py-1 rounded-lg">
           <Server className="w-3 h-3 inline mr-1" /> Events: {metrics.eventsTracked.toLocaleString()}
         </span>

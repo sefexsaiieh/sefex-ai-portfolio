@@ -68,7 +68,7 @@ export function TravelOSSimulation() {
         {t('simulation.title')}
       </h2>
 
-      <div className="grid grid-cols-2 gap-3 mb-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 xl:gap-6 mb-4">
         {agentStatuses.map((agent) => <AgentStatusCard key={agent.id} agent={agent} />)}
       </div>
 

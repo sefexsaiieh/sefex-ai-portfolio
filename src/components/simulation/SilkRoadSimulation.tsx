@@ -120,7 +120,7 @@ export function SilkRoadSimulation() {
       <p className="text-center text-xs text-slate-500 mb-6">$2.3 trillion global halal market • AI-powered certification • Blockchain supply chain</p>
 
       {/* Agent cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 xl:gap-6 mb-4">
         {agentStatuses.map(agent => (
           <div key={agent.id} className={`glass-card p-3 border transition-all duration-500 ${
             agent.status === 'working' ? 'border-amber-500/30 bg-amber-500/[0.04]' :
@@ -152,7 +152,7 @@ export function SilkRoadSimulation() {
       </div>
 
       {/* Metrics */}
-      <div className="flex flex-wrap justify-center gap-3 mb-4 text-xs font-mono" role="status" aria-label="Silk Road Metrics">
+      <div className="flex flex-wrap xl:flex-nowrap justify-center gap-3 mb-4 text-xs font-mono" role="status" aria-label="Silk Road Metrics">
         <span className="text-emerald-300/90 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-lg">
           <FileCheck className="w-3 h-3 inline mr-1" aria-hidden="true" /> Certs: {metrics.certifications.toLocaleString()}
         </span>

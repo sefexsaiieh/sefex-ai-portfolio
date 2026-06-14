@@ -30,6 +30,20 @@ export function ParticleNetwork() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particles = useRef<Particle[]>([]);
   const symbols = useRef<MathSymbol[]>([]);
+
+// Side-margin tech badges
+const TECH_BADGES = ['Go', 'Kafka', 'React', 'Phi-4', 'Istio', 'Redis', 'DeepSeek', 'PostgreSQL', 'Kubernetes', 'TypeScript', 'Rust', 'Python'];
+interface TechBadge {
+  x: number;
+  y: number;
+  text: string;
+  alpha: number;
+  side: 'left' | 'right';
+  speed: number;
+  offset: number;
+}
+const techBadgesRef = useRef<TechBadge[]>([]);
+
   const animationId = useRef<number>(0);
   const mouseRef = useRef({ x: -1000, y: -1000 });
 
@@ -55,6 +69,18 @@ export function ParticleNetwork() {
       vy: (Math.random() - 0.5) * 0.6,
       size: Math.random() * 2 + 1,
       alpha: Math.random() * 0.5 + 0.2,
+    }));
+
+
+    // Init tech badges
+    techBadgesRef.current = TECH_BADGES.map((text, i) => ({
+      x: i % 2 === 0 ? Math.random() * 80 + 10 : canvas.width - Math.random() * 80 - 50,
+      y: Math.random() * canvas.height,
+      text,
+      alpha: Math.random() * 0.04 + 0.01,
+      side: i % 2 === 0 ? 'left' : 'right',
+      speed: Math.random() * 0.1 + 0.03,
+      offset: Math.random() * 100,
     }));
 
     // Init floating math symbols
@@ -132,6 +158,16 @@ export function ParticleNetwork() {
         ctx.font = `${s.size}px "IBM Plex Mono", monospace`;
         ctx.fillStyle = `rgba(148, 163, 184, ${s.alpha})`;
         ctx.fillText(s.symbol, s.x, s.y + driftY);
+      }
+
+
+      // Draw tech badges
+      for (const badge of techBadgesRef.current) {
+        const driftY = Math.sin(time * badge.speed + badge.offset) * 30;
+        ctx.font = '10px "IBM Plex Mono", monospace';
+        ctx.fillStyle = `rgba(148, 163, 184, ${badge.alpha})`;
+        ctx.textAlign = badge.side === 'left' ? 'left' : 'right';
+        ctx.fillText(badge.text, badge.x, badge.y + driftY);
       }
 
       animationId.current = requestAnimationFrame(animate);

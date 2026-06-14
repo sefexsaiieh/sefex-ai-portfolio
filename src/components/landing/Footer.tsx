@@ -6,7 +6,7 @@ export function Footer() {
 
   return (
     <footer className="relative z-10 border-t border-white/5 bg-space-950/80 backdrop-blur-xl" role="contentinfo">
-      <div className="max-w-6xl mx-auto px-4 py-10">
+      <div className="max-w-7xl mx-auto px-4 py-10">
         <div className="flex justify-center items-center gap-8">
           <a href="https://github.com/sefexsaiieh" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-cyan-300 transition-colors group" aria-label={t('footer.github')}>

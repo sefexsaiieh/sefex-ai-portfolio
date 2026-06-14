@@ -42,7 +42,7 @@ export function HeroSection({ onCtaClick }: HeroSectionProps) {
       {/* Tagline */}
       <p
         ref={taglineRef}
-        className="mt-6 max-w-2xl text-lg text-slate-400 leading-relaxed font-light"
+        className="mt-6 max-w-3xl text-lg text-slate-400 leading-relaxed font-light"
       >
         {t('hero.tagline')}
       </p>
