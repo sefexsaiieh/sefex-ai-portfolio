@@ -64,7 +64,9 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 pb-16">
           <TravelOSSimulation />
         </div>
-        <SilkRoadSimulation />
+        <div className="max-w-4xl mx-auto px-4 pb-16">
+          <SilkRoadSimulation />
+        </div>
       </main>
 
       <Footer />
