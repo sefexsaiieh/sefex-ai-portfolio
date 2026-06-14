@@ -18,6 +18,7 @@ CANONICAL DATA:
 - Certifications: Temenos Triple'A Plus Bronze, Project Mgmt, Troubleshooting; Data Scientist's Toolbox (Johns Hopkins)
 - Languages: English (fluent), Malay/Indonesian (native), French (A1)
 - AI Projects:
+  3. Banking Orchestrator: Air-gapped, EU-compliant (GDPR/DORA/NIS2) multi-system banking monitoring platform. Go + Kafka + PostgreSQL + Istio on RHEL 9.2. Local AI via Phi-4-mini 3.8B + llama.cpp + scikit-learn anomaly detection. Zero internet connectivity, tamper-evident logging, mTLS service mesh. ~15K LOC spec + Go core.
   1. TravelOS: 4 AI agents (Monitoring, Planning, Storytelling, Vision) using DeepSeek + Gemini 2.0 Flash, WebSocket real-time, JobetCard FinTech engine. ~15K LOC TypeScript.
   2. Silk Road Halal Digital Ecosystem: full-stack AI marketplace for $2.3T halal market, DeepSeek Edge Functions, blockchain supply chain, Shariah-compliant payments. ~15K LOC.
 
