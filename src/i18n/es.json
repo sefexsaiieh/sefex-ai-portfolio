@@ -2,46 +2,46 @@
   "hero": {
     "title": "Sefex Saiieh",
     "subtitle": "Consultor de IA FinTech",
-    "tagline": "10+ años transformando la gestión patrimonial con IA, Finanzas Islámicas y Temenos WealthSuite",
-    "cta": "Pregunta a Mí IA",
-    "trust_1": "10+ años FinTech",
-    "trust_2": "Finanzas Islámicas (INCEIF)",
+    "tagline": "10+ a\u00f1os transformando la gesti\u00f3n patrimonial con IA, Finanzas Isl\u00e1micas y Temenos WealthSuite",
+    "cta": "Pregunta a M\u00ed IA",
+    "trust_1": "10+ a\u00f1os FinTech",
+    "trust_2": "Finanzas Isl\u00e1micas (INCEIF)",
     "trust_3": "Experto en Temenos Triple'A",
-    "trust_4": "4 Agentes IA (producción)"
+    "trust_4": "4 Agentes IA (producci\u00f3n)"
   },
   "timeline": {
-    "title": "Trayectoria Académica y Profesional",
+    "title": "Trayectoria Acad\u00e9mica y Profesional",
     "now": "Ahora"
   },
   "chat": {
     "title": "Sefex AI",
-    "status_online": "En Línea",
+    "status_online": "En L\u00ednea",
     "status_thinking": "Pensando...",
-    "placeholder": "Pregúntame cualquier cosa sobre FinTech IA...",
-    "intro_message": "👋 ¡Hola! Soy el asistente IA de Sefex. Puedo generar su CV, explicar su arquitectura de IA TravelOS, discutir proyectos de FinTech Islámica, mostrar experiencia en WealthSuite o compartir ejemplos de código. ¿Qué te gustaría explorar?",
-    "disclaimer": "Generado por IA — verifica via LinkedIn o correo sefex.saiieh@gmail.com",
-    "error_unavailable": "IA temporalmente no disponible — por favor escríbeme a sefex.saiieh@gmail.com",
-    "error_timeout": "La solicitud expiró. Por favor intenta de nuevo.",
+    "placeholder": "Preg\u00fantame cualquier cosa sobre FinTech IA...",
+    "intro_message": "\ud83d\udc4b \u00a1Hola! Soy el asistente IA de Sefex. Puedo generar su CV, explicar su arquitectura de IA TravelOS, discutir proyectos de FinTech Isl\u00e1mica, mostrar experiencia en WealthSuite o compartir ejemplos de c\u00f3digo. \u00bfQu\u00e9 te gustar\u00eda explorar?",
+    "disclaimer": "Generado por IA \u2014 verifica via LinkedIn o correo sefex.saiieh@gmail.com",
+    "error_unavailable": "IA temporalmente no disponible \u2014 por favor escr\u00edbeme a sefex.saiieh@gmail.com",
+    "error_timeout": "La solicitud expir\u00f3. Por favor intenta de nuevo.",
     "error_rate_limited": "Demasiadas solicitudes. Por favor espera un momento.",
-    "quick_cv": "📄 Generar mi CV",
-    "quick_architecture": "🤖 Explicar la arquitectura de IA TravelOS",
-    "quick_islamic": "🕌 Mostrar proyectos FinTech Islámicos",
-    "quick_wealthsuite": "📊 ¿Qué proyectos de WealthSuite?",
-    "quick_code": "🔧 Mostrar ejemplo de código Edge Function",
-    "quick_language": "🌍 Responder en Español"
+    "quick_cv": "\ud83d\udcc4 Generar mi CV",
+    "quick_architecture": "\ud83e\udd16 Explicar la arquitectura de IA TravelOS",
+    "quick_islamic": "\ud83d\udd4c Mostrar proyectos FinTech Isl\u00e1micos",
+    "quick_wealthsuite": "\ud83d\udcca \u00bfQu\u00e9 proyectos de WealthSuite?",
+    "quick_code": "\ud83d\udd27 Mostrar ejemplo de c\u00f3digo Edge Function",
+    "quick_language": "\ud83c\udf0d Responder en Espa\u00f1ol"
   },
   "simulation": {
     "title": "Monitor de Agentes TravelOS en Tiempo Real",
     "savings": "Ahorros encontrados",
-    "anomalies": "Anomalías",
+    "anomalies": "Anomal\u00edas",
     "tasks": "Tareas completadas",
-    "btn_drop": "Simular Caída de Precio",
+    "btn_drop": "Simular Ca\u00edda de Precio",
     "btn_alert": "Activar Alerta de Seguridad",
     "btn_reset": "Reiniciar Demo",
     "agent_monitoring": "Monitoreo",
-    "agent_planning": "Planificación",
-    "agent_storytelling": "Narración",
-    "agent_vision": "Visión",
+    "agent_planning": "Planificaci\u00f3n",
+    "agent_storytelling": "Narraci\u00f3n",
+    "agent_vision": "Visi\u00f3n",
     "status_idle": "Inactivo",
     "status_working": "Trabajando",
     "status_alert": "Alerta"
@@ -53,9 +53,17 @@
     "generated_at": "Generado el {{date}} UTC"
   },
   "footer": {
-    "disclaimer": "Contenido generado por IA — verifica via LinkedIn. Este sitio es un proyecto de portafolio personal.",
+    "disclaimer": "Contenido generado por IA \u2014 verifica via LinkedIn. Este sitio es un proyecto de portafolio personal.",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Correo"
+  },
+  "silk": {
+    "agent_cert": "Certification AI",
+    "agent_market": "Marketplace AI",
+    "agent_supply": "Supply Chain AI",
+    "agent_trade": "Trade Assistant AI",
+    "title": "Silk Road \u2014 Halal Digital Ecosystem",
+    "subtitle": "$2.3T halal market \u00b7 AI certification \u00b7 Blockchain supply chain"
   }
 }

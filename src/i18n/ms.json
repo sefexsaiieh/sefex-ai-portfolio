@@ -18,17 +18,17 @@
     "status_online": "Dalam Talian",
     "status_thinking": "Berfikir...",
     "placeholder": "Tanyakan apa sahaja tentang FinTech AI...",
-    "intro_message": "👋 Hai! Saya pembantu AI Sefex. Saya boleh menjana CV beliau, menerangkan seni bina AI TravelOS, membincangkan projek FinTech Islam, menunjukkan pengalaman WealthSuite, atau berkongsi contoh kod. Apa yang ingin anda terokai?",
-    "disclaimer": "Dijana AI — sahkan melalui LinkedIn atau emel sefex.saiieh@gmail.com",
-    "error_unavailable": "AI tidak tersedia buat sementara waktu — sila emel saya di sefex.saiieh@gmail.com",
+    "intro_message": "\ud83d\udc4b Hai! Saya pembantu AI Sefex. Saya boleh menjana CV beliau, menerangkan seni bina AI TravelOS, membincangkan projek FinTech Islam, menunjukkan pengalaman WealthSuite, atau berkongsi contoh kod. Apa yang ingin anda terokai?",
+    "disclaimer": "Dijana AI \u2014 sahkan melalui LinkedIn atau emel sefex.saiieh@gmail.com",
+    "error_unavailable": "AI tidak tersedia buat sementara waktu \u2014 sila emel saya di sefex.saiieh@gmail.com",
     "error_timeout": "Permintaan tamat masa. Sila cuba lagi.",
     "error_rate_limited": "Terlalu banyak permintaan. Sila tunggu sebentar.",
-    "quick_cv": "📄 Jana CV saya",
-    "quick_architecture": "🤖 Terangkan seni bina AI TravelOS",
-    "quick_islamic": "🕌 Tunjukkan projek FinTech Islam",
-    "quick_wealthsuite": "📊 Projek WealthSuite apa?",
-    "quick_code": "🔧 Tunjukkan contoh kod Edge Function",
-    "quick_language": "🌍 Balas dalam Bahasa Melayu"
+    "quick_cv": "\ud83d\udcc4 Jana CV saya",
+    "quick_architecture": "\ud83e\udd16 Terangkan seni bina AI TravelOS",
+    "quick_islamic": "\ud83d\udd4c Tunjukkan projek FinTech Islam",
+    "quick_wealthsuite": "\ud83d\udcca Projek WealthSuite apa?",
+    "quick_code": "\ud83d\udd27 Tunjukkan contoh kod Edge Function",
+    "quick_language": "\ud83c\udf0d Balas dalam Bahasa Melayu"
   },
   "simulation": {
     "title": "Pemantauan Ejen TravelOS Masa Nyata",
@@ -53,9 +53,17 @@
     "generated_at": "Dijana pada {{date}} UTC"
   },
   "footer": {
-    "disclaimer": "Kandungan dijana AI — sahkan melalui LinkedIn. Laman ini adalah projek portfolio peribadi.",
+    "disclaimer": "Kandungan dijana AI \u2014 sahkan melalui LinkedIn. Laman ini adalah projek portfolio peribadi.",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Emel"
+  },
+  "silk": {
+    "agent_cert": "Certification AI",
+    "agent_market": "Marketplace AI",
+    "agent_supply": "Supply Chain AI",
+    "agent_trade": "Trade Assistant AI",
+    "title": "Silk Road \u2014 Halal Digital Ecosystem",
+    "subtitle": "$2.3T halal market \u00b7 AI certification \u00b7 Blockchain supply chain"
   }
 }

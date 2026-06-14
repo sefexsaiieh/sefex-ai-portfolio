@@ -2,42 +2,42 @@
   "hero": {
     "title": "Sefex Saiieh",
     "subtitle": "Consultant IA FinTech",
-    "tagline": "10+ ans d'expérience dans la transformation de la gestion de patrimoine avec l'IA, la finance islamique et Temenos WealthSuite",
-    "cta": "Demandez à Moi IA",
+    "tagline": "10+ ans d'exp\u00e9rience dans la transformation de la gestion de patrimoine avec l'IA, la finance islamique et Temenos WealthSuite",
+    "cta": "Demandez \u00e0 Moi IA",
     "trust_1": "10+ ans FinTech",
     "trust_2": "Finance Islamique (INCEIF)",
     "trust_3": "Expert Temenos Triple'A",
     "trust_4": "4 Agents IA (production)"
   },
   "timeline": {
-    "title": "Parcours Académique & Professionnel",
+    "title": "Parcours Acad\u00e9mique & Professionnel",
     "now": "Maintenant"
   },
   "chat": {
     "title": "Sefex AI",
     "status_online": "En Ligne",
-    "status_thinking": "Réflexion...",
+    "status_thinking": "R\u00e9flexion...",
     "placeholder": "Demandez-moi n'importe quoi sur la FinTech IA...",
-    "intro_message": "👋 Bonjour ! Je suis l'assistant IA de Sefex. Je peux générer son CV, expliquer son architecture IA TravelOS, discuter de projets FinTech islamiques, montrer son expérience WealthSuite, ou partager des exemples de code. Que souhaitez-vous explorer ?",
-    "disclaimer": "Généré par IA — vérifiez via LinkedIn ou email sefex.saiieh@gmail.com",
-    "error_unavailable": "IA temporairement indisponible — veuillez m'écrire à sefex.saiieh@gmail.com",
-    "error_timeout": "La requête a expiré. Veuillez réessayer.",
-    "error_rate_limited": "Trop de requêtes. Veuillez patienter.",
-    "quick_cv": "📄 Générer mon CV",
-    "quick_architecture": "🤖 Expliquer l'architecture IA TravelOS",
-    "quick_islamic": "🕌 Montrer les projets FinTech islamiques",
-    "quick_wealthsuite": "📊 Quels projets WealthSuite ?",
-    "quick_code": "🔧 Montrer un exemple de code Edge Function",
-    "quick_language": "🌍 Répondre en Français"
+    "intro_message": "\ud83d\udc4b Bonjour ! Je suis l'assistant IA de Sefex. Je peux g\u00e9n\u00e9rer son CV, expliquer son architecture IA TravelOS, discuter de projets FinTech islamiques, montrer son exp\u00e9rience WealthSuite, ou partager des exemples de code. Que souhaitez-vous explorer ?",
+    "disclaimer": "G\u00e9n\u00e9r\u00e9 par IA \u2014 v\u00e9rifiez via LinkedIn ou email sefex.saiieh@gmail.com",
+    "error_unavailable": "IA temporairement indisponible \u2014 veuillez m'\u00e9crire \u00e0 sefex.saiieh@gmail.com",
+    "error_timeout": "La requ\u00eate a expir\u00e9. Veuillez r\u00e9essayer.",
+    "error_rate_limited": "Trop de requ\u00eates. Veuillez patienter.",
+    "quick_cv": "\ud83d\udcc4 G\u00e9n\u00e9rer mon CV",
+    "quick_architecture": "\ud83e\udd16 Expliquer l'architecture IA TravelOS",
+    "quick_islamic": "\ud83d\udd4c Montrer les projets FinTech islamiques",
+    "quick_wealthsuite": "\ud83d\udcca Quels projets WealthSuite ?",
+    "quick_code": "\ud83d\udd27 Montrer un exemple de code Edge Function",
+    "quick_language": "\ud83c\udf0d R\u00e9pondre en Fran\u00e7ais"
   },
   "simulation": {
-    "title": "Monitoring d'Agents TravelOS en Temps Réel",
-    "savings": "Économies trouvées",
+    "title": "Monitoring d'Agents TravelOS en Temps R\u00e9el",
+    "savings": "\u00c9conomies trouv\u00e9es",
     "anomalies": "Anomalies",
-    "tasks": "Tâches terminées",
+    "tasks": "T\u00e2ches termin\u00e9es",
     "btn_drop": "Simuler une Baisse de Prix",
-    "btn_alert": "Déclencher une Alerte de Sécurité",
-    "btn_reset": "Réinitialiser la Démo",
+    "btn_alert": "D\u00e9clencher une Alerte de S\u00e9curit\u00e9",
+    "btn_reset": "R\u00e9initialiser la D\u00e9mo",
     "agent_monitoring": "Surveillance",
     "agent_planning": "Planification",
     "agent_storytelling": "Narration",
@@ -47,15 +47,23 @@
     "status_alert": "Alerte"
   },
   "cv": {
-    "download_pdf": "Télécharger PDF",
+    "download_pdf": "T\u00e9l\u00e9charger PDF",
     "copy_clipboard": "Copier dans le presse-papier",
-    "download_md": "Télécharger .md",
-    "generated_at": "Généré le {{date}} UTC"
+    "download_md": "T\u00e9l\u00e9charger .md",
+    "generated_at": "G\u00e9n\u00e9r\u00e9 le {{date}} UTC"
   },
   "footer": {
-    "disclaimer": "Contenu généré par IA — vérifiez via LinkedIn. Ce site est un projet de portfolio personnel.",
+    "disclaimer": "Contenu g\u00e9n\u00e9r\u00e9 par IA \u2014 v\u00e9rifiez via LinkedIn. Ce site est un projet de portfolio personnel.",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "email": "Email"
+  },
+  "silk": {
+    "agent_cert": "Certification AI",
+    "agent_market": "Marketplace AI",
+    "agent_supply": "Supply Chain AI",
+    "agent_trade": "Trade Assistant AI",
+    "title": "Silk Road \u2014 Halal Digital Ecosystem",
+    "subtitle": "$2.3T halal market \u00b7 AI certification \u00b7 Blockchain supply chain"
   }
 }

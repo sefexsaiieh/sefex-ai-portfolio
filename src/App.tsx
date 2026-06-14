@@ -5,6 +5,7 @@ import { TrustBadges } from './components/landing/TrustBadges';
 import { AcademicTimeline } from './components/landing/AcademicTimeline';
 import { Footer } from './components/landing/Footer';
 import { TravelOSSimulation } from './components/simulation/TravelOSSimulation';
+import { SilkRoadSimulation } from './components/simulation/SilkRoadSimulation';
 import { ParticleNetwork } from './components/landing/ParticleNetwork';
 import { useStore } from './store/useStore';
 
@@ -63,6 +64,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 pb-16">
           <TravelOSSimulation />
         </div>
+        <SilkRoadSimulation />
       </main>
 
       <Footer />
