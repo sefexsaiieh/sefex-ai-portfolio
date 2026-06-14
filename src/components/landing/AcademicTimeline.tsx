@@ -50,7 +50,7 @@ export function AcademicTimeline() {
   return (
     <section
       ref={ref}
-      className="relative z-10 w-full max-w-5xl mx-auto px-4 py-12 md:py-20"
+      className="relative z-10 w-full max-w-5xl mx-auto px-4"
       aria-label={t('timeline.title')}
     >
       <h2 className="text-center text-xs font-mono font-semibold text-slate-500 uppercase tracking-[0.2em] mb-10">

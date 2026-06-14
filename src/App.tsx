@@ -60,15 +60,17 @@ function App() {
       <main id="main-content" className="relative z-10 flex-1">
         <HeroSection onCtaClick={handleCtaClick} />
         <TrustBadges />
-        <div className="glow-line mx-auto max-w-xl mb-8" />
-        <AcademicTimeline />
-        <div className="max-w-4xl mx-auto px-4 pb-16">
+        <div className="max-w-4xl mx-auto px-4 py-12">
+          <div className="glow-line mx-auto max-w-xl mb-8" />
+          <AcademicTimeline />
+        </div>
+        <div className="max-w-4xl mx-auto px-4 py-12">
           <TravelOSSimulation />
         </div>
-        <div className="max-w-4xl mx-auto px-4 pb-16">
+        <div className="max-w-4xl mx-auto px-4 py-12">
           <SilkRoadSimulation />
         </div>
-        <div className="max-w-4xl mx-auto px-4 pb-16">
+        <div className="max-w-4xl mx-auto px-4 py-12">
           <BankingOrchestratorSimulation />
         </div>
       </main>

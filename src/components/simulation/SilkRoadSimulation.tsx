@@ -113,7 +113,7 @@ export function SilkRoadSimulation() {
   };
 
   return (
-    <section className="relative z-10 w-full mt-16" aria-label="Silk Road Simulation">
+    <section className="relative z-10 w-full" aria-label="Silk Road Simulation">
       <h2 className="text-center text-xs font-mono font-semibold text-amber-400 uppercase tracking-[0.2em] mb-2">
         🕌 Silk Road — Halal Digital Ecosystem
       </h2>
