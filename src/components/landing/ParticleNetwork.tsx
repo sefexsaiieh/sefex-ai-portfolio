@@ -10,7 +10,7 @@ interface Particle {
   alpha: number;
 }
 
-const PARTICLE_COUNT = 80;
+const PARTICLE_COUNT = 120;
 const CONNECTION_DIST = 120;
 const SYMBOL_COUNT = 12;
 const SYMBOLS = ['∑', 'π', 'λ', '∂', '∞', '∫', 'Δ', 'Ω', 'φ', 'θ', '√', '∈'];
