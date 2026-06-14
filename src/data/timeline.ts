@@ -60,15 +60,16 @@ export const timelineCredentials: Credential[] = [
   {
     year: '2024',
     degree: 'AI Agent Engineering',
-    institution: 'TravelOS · Silk Road Platform',
-    field: 'DeepSeek · Gemini · Edge Functions',
+    institution: 'TravelOS · Silk Road · Banking Orchestrator',
+    field: 'DeepSeek · Phi-4-mini · Go · Kafka',
     icon: 'ai',
     tooltip: {
-      description: 'Built 4 production AI agents with real-time orchestration',
+      description: 'Built 4 production AI agents + air-gapped banking orchestrator',
       details: [
-        'TravelOS: monitoring, planning, storytelling, vision agents',
+        'TravelOS: 4 AI agents (monitoring, planning, storytelling, vision)',
         'Silk Road: full-stack AI halal marketplace with blockchain',
-        'DeepSeek API + Gemini 2.0 Flash + Supabase Edge Functions',
+        'Banking Orchestrator: air-gapped, EU-compliant monitoring platform',
+        'Go + Kafka + PostgreSQL + Istio + Phi-4-mini + llama.cpp',
       ],
     },
   },
@@ -91,7 +92,7 @@ export const timelineCredentials: Credential[] = [
     year: 'Now',
     degree: 'FinTech AI Expert',
     institution: 'Active · Luxembourg',
-    field: 'AI-driven portfolio management · lux|mandate',
+    field: 'AI · Go · Kafka · WealthSuite · Phi-4 · Cloud',
     icon: 'current',
     highlighted: true,
     tooltip: {
