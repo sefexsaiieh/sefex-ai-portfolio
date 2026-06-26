@@ -141,6 +141,26 @@ body {
   75% { transform: scale(1.1) rotate(5deg); opacity: 1; }
 }
 
+/* Math symbols drift for hero background */
+@keyframes math-drift {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0.025;
+  }
+  25% {
+    transform: translate(12px, -10px) rotate(3deg);
+    opacity: 0.055;
+  }
+  50% {
+    transform: translate(-6px, -5px) rotate(-2deg);
+    opacity: 0.035;
+  }
+  75% {
+    transform: translate(8px, -16px) rotate(4deg);
+    opacity: 0.045;
+  }
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
