@@ -145,19 +145,19 @@ body {
 @keyframes math-drift {
   0%, 100% {
     transform: translate(0, 0) rotate(0deg);
-    opacity: 0.025;
+    opacity: 0.06;
   }
   25% {
     transform: translate(12px, -10px) rotate(3deg);
-    opacity: 0.055;
+    opacity: 0.12;
   }
   50% {
     transform: translate(-6px, -5px) rotate(-2deg);
-    opacity: 0.035;
+    opacity: 0.08;
   }
   75% {
     transform: translate(8px, -16px) rotate(4deg);
-    opacity: 0.045;
+    opacity: 0.10;
   }
 }
 
